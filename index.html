@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Kelly • Instant Vercel Live – Demo Deployment</title>
+  <meta name="description" content="Deployed from GitHub to Vercel in seconds – Portfolio showcase by Kelly from Port Harcourt"/>
+  <style>
+    :root {
+      --primary: #7c3aed;
+      --primary-dark: #5b21b6;
+      --bg: #0f0f1a;
+      --text: #e2e8f0;
+      --card: rgba(30, 30, 50, 0.6);
+    }
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0f0f1a 0%, #1a0f2e 100%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    header {
+      width: 100%;
+      padding: 4rem 1rem 2rem;
+      text-align: center;
+      background: linear-gradient(to bottom, rgba(124,58,237,0.15), transparent);
+    }
+    h1 {
+      font-size: 3.2rem;
+      margin-bottom: 0.5rem;
+      background: linear-gradient(90deg, #c084fc, #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .tagline {
+      font-size: 1.3rem;
+      opacity: 0.9;
+      margin-bottom: 1rem;
+    }
+    main {
+      max-width: 900px;
+      width: 90%;
+      padding: 2rem 1rem;
+    }
+    .glass-card {
+      background: var(--card);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(124,58,237,0.3);
+      border-radius: 16px;
+      padding: 2.5rem;
+      margin: 2rem 0;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+      transition: transform 0.3s ease;
+    }
+    .glass-card:hover { transform: translateY(-8px); }
+    h2 {
+      color: #c084fc;
+      margin-bottom: 1.2rem;
+      font-size: 1.8rem;
+    }
+    ul {
+      list-style: none;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+    li { margin: 0.8rem 0; position: relative; padding-left: 1.8rem; }
+    li::before {
+      content: "→";
+      color: var(--primary);
+      position: absolute;
+      left: 0;
+      font-weight: bold;
+    }
+    .cta {
+      text-align: center;
+      margin: 3rem 0;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: linear-gradient(90deg, var(--primary), var(--primary-dark));
+      color: white;
+      padding: 1rem 2.5rem;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.2rem;
+      transition: all 0.3s;
+    }
+    .cta-btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 30px rgba(124,58,237,0.5);
+    }
+    footer {
+      margin-top: auto;
+      padding: 2rem;
+      text-align: center;
+      opacity: 0.7;
+      font-size: 0.95rem;
+    }
+    @media (max-width: 600px) {
+      h1 { font-size: 2.5rem; }
+      .glass-card { padding: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Live in Seconds</h1>
+    <p class="tagline">GitHub → Vercel • Deployed by Kelly • Port Harcourt, NG</p>
+  </header>
+
+  <main>
+    <div class="glass-card">
+      <h2>Welcome to My Demo Deployment</h2>
+      <p>This single-file HTML page was pushed to GitHub and went live on Vercel automatically—no build tools, no hassle.</p>
+      <p>Perfect example of the fast, reliable deployments I offer on Fiverr.</p>
+    </div>
+
+    <div class="glass-card">
+      <h2>What I Handle for You</h2>
+      <ul>
+        <li>Connect your GitHub repo to Vercel in minutes</li>
+        <li>Static HTML/CSS/JS sites deployed instantly</li>
+        <li>Custom domains, SSL, and env variables setup</li>
+        <li>Fix common build errors & config issues</li>
+        <li>Support for React, Next.js, Vite & plain HTML</li>
+        <li>Fast delivery – most orders live in 1–2 days</li>
+      </ul>
+    </div>
+
+    <div class="glass-card">
+      <h2>Ready to Launch Your Site?</h2>
+      <p>Message me on Fiverr with your repo link – let's get you online today.</p>
+    </div>
+
+    <div class="cta">
+      <a href="https://www.fiverr.com/heiskelvin" class="cta-btn" target="_blank">Order on Fiverr Now</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 Kelly • Fast GitHub-to-Vercel Deployments • All rights reserved
+  </footer>
+
+</body>
+</html>
